@@ -1,0 +1,11 @@
+name = "NRDS"
+license = "OURS"
+licenselink = ""
+description = "NRDS Website theme"
+
+tags = ["blog", "minimal", "clean", "zerostatic"]
+features = ["blog"]
+
+[author]
+  name = "Nerd as a Service"
+  homepage = "https://www.nrds.nl"
