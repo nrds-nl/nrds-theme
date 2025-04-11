@@ -1,5 +1,13 @@
 .intro {
   margin-bottom: 60px;
+
+  .intro-robot {
+    display: flex;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
   h1 {
     font-size: 48px;
     line-height: 56px;
@@ -43,6 +51,7 @@
   img {
     max-width: 100%;
   }
+
   // img {
   //   margin-right: -30px;
   //   width: 100vw;

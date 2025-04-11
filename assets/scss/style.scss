@@ -56,7 +56,7 @@ body {
 
 .intro-block {
   width: 100vw;
-  background-color: var(--heading-color);
+  background-color: var(--highlight-color);
   position: relative;
   left: 50%;
   right: 50%;
@@ -64,16 +64,18 @@ body {
   margin-right: -50vw;
   margin-bottom: 2em;
   padding: 2em 0;
-  transform: rotate(-1deg);
-  color: white;
+  transform: rotate(-0deg);
+  color: #fdfdfd;
 }
 
 .intro-block-content {
-  transform: rotate(1deg);
+  transform: rotate(0deg);
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
-  font-weight: 400;
+  padding: 15px 20px 10px 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 
