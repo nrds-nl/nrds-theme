@@ -1,5 +1,5 @@
 .summary {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 24px;
   @include breakpoint('small') {
@@ -25,5 +25,13 @@
   .summary-description {
     width: 80%;
     line-height: 1.5;
+  }
+  .news-img {
+    width: 300px;
+    margin: 20px 20px 20px 0;
+  }
+  .summary-box {
+    display:flex;
+    margin-bottom: 20px;
   }
 }

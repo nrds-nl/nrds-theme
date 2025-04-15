@@ -49,6 +49,10 @@ body {
   }
 }
 
+hr {
+  color: var(--text-color);
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;

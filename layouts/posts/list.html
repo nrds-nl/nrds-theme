@@ -1,8 +1,11 @@
 {{ define "body_classes" }}page-blog-list{{ end }}
 
 {{ define "main" }}
-  <div class="intro">
-    <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  <div class="intro no-mb">
+    <div class="intro-robot">
+      <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+      <img src="../images/naas_robo.png" class="mirror">
+    </div>
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
   </div>
   {{ .Content }}
