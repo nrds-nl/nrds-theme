@@ -7,8 +7,14 @@
   .intro-robot {
     display: flex;
     img {
-      width: 200px;
-      height: 200px;
+      width: 100px;
+      height: 100px;
+      padding-top: 20px;
+      @include breakpoint('medium') {
+        width: 200px;
+        height: 200px;
+        padding-top: 0;
+      }
       &.mirror {
         transform: scale(-1, 1);
         margin-top: -50px;

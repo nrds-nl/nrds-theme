@@ -31,7 +31,10 @@
     margin: 20px 20px 20px 0;
   }
   .summary-box {
-    display:flex;
+    display: block;
+    @include breakpoint('medium') {
+      display:flex;
+    }
     margin-bottom: 20px;
   }
 }
